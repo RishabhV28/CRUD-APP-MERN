@@ -6,9 +6,6 @@ const Product=require('./models/product.models.js')
 
 app.use(express.json())
 
-
-
-
 app.use("/api/products",productRoute)
 
 app.listen(3000,()=>{
